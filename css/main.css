@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Walkway;
+	src: url(Walkway_Oblique.ttf);
+}
+
+#title {
+	margin-top: 5px;
+	margin-left: 100px;
+	font-family: Walkway;
+	font-size: 14pt;
+}
+
+select {
+	height: 20px;
+}
+a {
+	font-size: 9px;
+}
+.q {
+	font-size:11px;
+	width: 100px;
+}
+pre, code {
+	font-family: Verdana;
+	font-size: 8px;
+	margin-left: 20px;
+	font-style: normal;
+}
+span {
+	font-size: 12px;
+}
+
+body {
+	width: 90%;
+}
+#wrapper {
+	width:100%;
+	margin-left:5%;
+	margin-top: 1%;
+}
+#wrapper2 {
+	width:100%;
+	margin-left:5%;
+	margin-top: -1%;
+}
+#debug {
+	width:100%;
+	margin-left:5%;
+	margin-top: 1%;
+}
+#buttons {
+
+}

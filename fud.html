@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- jsonpath query -->
+<link rel="stylesheet" href="css/main.css" type="text/css" media="all" />		
+<link rel="stylesheet" href="css/jqtransform.css" type="text/css" media="all" />
+
+<!-- jquery -->
+<script src="js/jquery-1.8.0.min.js"></script>
+
+<!-- jsonpath query -->
+<script src="js/jsonpath-0.8.0.js"></script>
+
+<!-- table layout -->
+<script src="js/prettyprint.js"></script>
+
+<!-- dynamic layout -->
+<script src="js/jquery.jsonview.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/jquery.jsonview.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+<link rel="stylesheet" href="http://yandex.st/highlightjs/7.1/styles/default.min.css">
+<script src="http://yandex.st/highlightjs/7.1/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<script src="bootstrap/bootstrap.min.js"></script>
+
+<script src="settings.js"></script>
+
+</head>
+<body>	
+	<div id="title">The incredible JSON fetcher</div>
+	<div class="row">
+		<div id="wrapper" class="span12">
+			<form class="well form-inline">
+				<input title="Switch between select box and free url input" name="textfield" type="checkbox" id="c1" />
+				<span id="urls"><select id="selecturls" class="urlv">
+				</select></span>
+				<span id="urlt"><input name="textfield" type="text" class="urlv" size="40" /></span>
+				<input name="textfield" type="text" id="pid" size="10" />
+				<Label for="proxy">Proxy</label>
+					<input name="proxy" type="checkbox" id="c3" />
+					<select id="format">
+						<option val="dynamic">dynamic</option>
+						<option val="table">table</option>
+						<option val="simple">simple</option>
+						<option val="raw">raw</option>
+					</select>
+					<input class="btn btn-success" name="textfield" type="button" id="button" value="GET" />
+					<input title="filter json" name="textfield" type="text" id="filter" value="" />
+					<a target="_" href="http://code.google.com/p/jsonpath/wiki/Javascript">query syntax</a>
+				</form>
+			</div>
+			</div>
+			<div class="row">
+			<div id="wrapper2" class="span12">
+				<form class="well form-inline">
+				<div id="buttons">
+				</div>
+				</form>
+			</div>
+			</div>
+		<div class="row">
+			<div id="debug">
+				
+			</div>
+		</div>
+	</body>
+
+	<script src="js/fud.js"></script>
+
+</script>
+</html>
